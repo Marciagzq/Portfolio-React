@@ -1,0 +1,10 @@
+.jumbotron{
+    height: 350px;
+    width: auto;
+    margin: 0;
+    padding: 0px;
+    background-color: red;
+    position: relative;
+    border-radius: 0;
+    /* background-image: url("/portfolio/public/images/containerHome.jpg"); */
+}

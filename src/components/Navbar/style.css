@@ -1,0 +1,43 @@
+
+
+.navbar {
+  background-color: transparent!important;
+  position: absolute;
+  z-index: 1;
+}
+.navbar-dark{
+  z-index: 2;
+}
+.bg-dark{
+  background-color: transparent!important;
+}
+
+span{
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-brand{
+  font-size: 40px;
+  margin: 30px 90px;
+}
+/* 
+.btn {
+     border-radius: 40px;
+     color: rgb(255, 255, 255);
+     font-family: Open Sans;
+     font-size: 20px;
+     font-weight: 100;
+     padding: 14px;
+     background-color: #FAFAFA;
+     border: none;
+     text-decoration: none;
+     display: inline-block;
+     cursor: pointer;
+  }
+  
+  .btn:hover {
+     background: rgb(255, 255, 255, 0.5);
+     text-decoration: none;
+     text: #fff;
+  } */
