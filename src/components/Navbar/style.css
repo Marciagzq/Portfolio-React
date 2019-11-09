@@ -2,25 +2,24 @@
 
 .navbar {
   background-color: transparent!important;
-  position: absolute;
-  z-index: 1;
-}
-.navbar-dark{
+  position: fixed;
   z-index: 2;
 }
+
 .bg-dark{
   background-color: transparent!important;
 }
 
 span{
   font-weight: bold;
-  color: white;
 }
 
 .navbar-brand{
   font-size: 40px;
   margin: 30px 90px;
 }
+
+
 /* 
 .btn {
      border-radius: 40px;

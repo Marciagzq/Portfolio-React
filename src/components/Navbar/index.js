@@ -4,23 +4,25 @@ import "./style.css";
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-dark bg-dark">
             {/* Home Route */}
+
             <Link className="navbar-brand" to="/">
                 MARCIA<span id="lastName">ZEGARRA</span>
             </Link>
 
-            <div  className="collapse navbar-collapse" id="navbarNav">
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-                <ul className="navbar-nav">
+
+ 
+<div>
+                {/* About Route */}
+                <ul class="navbar-nav">
+
+
                     {/* home Route */}
                     <li className="nav-item">
                         <Link
                             to="/"
-                            className={
-                                window.location.pathname === "/" || window.location.pathname === "/home"
+                            className={window.location.pathname === "/"
                                     ? "nav-link active"
                                     : "nav-link"
                             }
@@ -28,14 +30,14 @@ function Navbar() {
                             Home
                         </Link>
                     </li>
+                
 
-                    {/* About Route */}
                     <li className="nav-item">
                         <Link
                             to="/about"
                             className={window.location.pathname === "/about"
-                                    ? "nav-link active"
-                                    : "nav-link"
+                                ? "nav-link active"
+                                : "nav-link"
                             }
                         >
                             About
@@ -77,15 +79,17 @@ function Navbar() {
                                 : "nav-link"
                             }
                         >
-                        <button type="button" className="btn">Warning</button>
+                            <button type="button" className="btn">Contact Me!</button>
                         </Link>
                     </li>
 
 
-                </ul>
-            </div>
-        </nav>
-    );
-}
 
+
+                </ul>
+                </div>
+        </nav>
+            );
+        }
+        
 export default Navbar;
