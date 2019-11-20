@@ -1,34 +1,26 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-// elements
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-// pages
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Technology from "./pages/Technology";
-import Contact from "./pages/Contact";
-
-
-
-
-function App() {
-  return (
-    <Router>
-      <div>
-        <Navbar />
-        <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/technology" component={Technology} />
-            <Route exact path="/contact" component={Contact} />
-        </Switch>
-        <Footer />
+import React, { Component } from 'react';
+import Header from './components/Header';
+import About from './components/About';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import Testimonials from  './components/Testimonials';
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
+import resumeData from './resumeData';
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header resumeData={resumeData}/>
+        <About resumeData={resumeData}/>
+        <Resume resumeData={resumeData}/>
+        <Portfolio resumeData={resumeData}/>
+        <Testimonials resumeData={resumeData}/>
+        <ContactUs resumeData={resumeData}/>
+        <Footer resumeData={resumeData}/>
       </div>
-    </Router>
-  );
+    );
+  }
 }
 
 export default App;

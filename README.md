@@ -1,42 +1,15 @@
-#University of Central Florida
-###Coding Bootcamp 
-#### Full Stack Developer 
-![alt text](https://portfolium1.cloudimg.io/s/crop/128x128/https://cdn.portfolium.com/ugcs3%2Fedu%2F9tDF4wvqRdewUvBbZ97x_PegasusBrightGold150x150.png "Logo Title Text 1")
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-## PORTFOLIO
-### My entire portfolio built with React.js
+[![HitCount](http://hits.dwyl.io/rbhatia46/React-Portfolio.svg)](http://hits.dwyl.io/rbhatia46/React-Portfolio)
 
 
-#####What is this Trivia so cool?
- 
+A simple SPA Portfolio template for developer/designers built with React. Use it to showcase your work, testimonials and other information to clients.
 
+## Preview
+![Preview](https://image.ibb.co/e5uBf0/Capture.png)
 
-#####What Language?
-
-*  Libraries, languages and technologies used for accomplished this individual project
-
-    * HTML
-    * CSS
-    * Javascript
-    * Bootstrap
-
-
-
-To learn more about JQuery, click [here!](https://api.jquery.com/)
-
-
-
-##[My Web application](https://github.com/Marciagzq/Portfolio)xxxxxxx
-
-
-![This](./images/trivia.png)xxxxxxxx
-
-*If you are interested only in my code, [click me!](https://github.com/Marciagzq/Portfolio)*
-
-
-
-
-*If any suggestion, do not hesitate to contact me on my personal email: marcia.gzq@gmail.com
-I would appreciate any comment, I know it may be very beneficial on my professional growth.*
+## How to use
+1. Clone/Download the repo.
+2. Run  ``` npm install ```.
+3. Change the values in ```src/resumeData.js``` to suit your use-case.
+4. Run ```npm start``` to spin the up the local dev server port 3000.(http://localhost:3000).
+5. Make required changes in ```src/resumeData.js``` to suit your needs.
 
