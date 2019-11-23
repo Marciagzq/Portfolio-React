@@ -33,7 +33,7 @@ To learn more about Mongoose, click [here!](https://www.npmjs.com/package/mongoo
 
 ### [Here you can execute my project](https://ucf-pr3.herokuapp.com/)
 
-![pic](.\public\images\portfolio\appScreenShot.png)
+![pic](public/images/portfolio/appScreenShot.png)
 
 *If any suggestion, do not hesitate to contact me on my personal email: marcia.gzq@gmail.com
 I would appreciate any comment, I know it may be very beneficial on my professional growth.*
