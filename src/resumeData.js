@@ -86,7 +86,7 @@ let resumeData = {
         "name":"Burger Store",
         "description":"Burger Store",
         "imgurl":"images/portfolio/burger.jpg",
-        "href": "https://burger-handlebars2019.herokuapp.com/"
+        "href": "https://burger-queen-ucf2019.herokuapp.com/"
       }
       // { 
       //   "name":"Friend Finder",
